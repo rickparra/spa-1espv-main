@@ -1,0 +1,68 @@
+// home.scss
+
+// Estilos para o elemento raiz <div>
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-title {
+  font-size: 28px;
+  margin: 10px 0;
+  color: #333;
+}
+
+// Estilos para a figura
+.home-figure {
+  max-width: 7rem;
+}
+
+.home-figcaption {
+  font-size: 20px;
+  color: #555;
+}
+
+// Estilos para a imagem da prateleira
+.home-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+// Estilos para a lista de produtos em destaque
+.home-products-title {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.home-products-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-product {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-product-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}

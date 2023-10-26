@@ -1,0 +1,49 @@
+// criar-produto.scss
+
+// Estilos para o elemento raiz <div>
+.criar-produto-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .criar-produto-title {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .criar-produto-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .criar-produto-label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .criar-produto-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .criar-produto-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .criar-produto-button:hover {
+    background-color: #0056b3;
+  }
+  
