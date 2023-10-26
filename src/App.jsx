@@ -18,7 +18,7 @@ export default function App(){
 
         {/* Criar um rodapé com uma div uma lista ul e 3 itens com links para redes sociais, um parágrafo com o texto : Todos os meus diereitos reservados. 2023, n"ao se esqueça do código do símbolo do copyright. */}
 
-      <Rodape>
+      <Rodape/>
     
       </div> 
     </>
