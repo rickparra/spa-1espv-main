@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
-import './Home.scss'
+import './Home.css'
 
 export default function Home() {
   document.title = 'HOME';
@@ -19,8 +18,9 @@ export default function Home() {
     <div className="home-container">
       <h1 className="home-title">Home</h1>
       <div className="home-figure">
-        <figcaption className="home-figcaption">PRODUTOS EM OFERTA</figcaption>
+        
         <img src="produtos.png" alt="Prateleira de Produtos." className="home-image" />
+        <figcaption className="home-figcaption">PRODUTOS EM OFERTA</figcaption>
       </div>
 
       <div>
