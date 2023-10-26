@@ -10,7 +10,7 @@ export default function Rodape() {
               <a href="#">GitHub</a>
             </li>
             <li>
-              <a href="#">X</a>
+              <a href="#">X(Twitter)</a>
             </li>
             <li>
               <a href="#">Reddit</a>
