@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import './produtos.scss';
 
 const Produtos = () => {
@@ -18,6 +17,10 @@ const Produtos = () => {
       const response = await fetch(`http://localhost:5000/produtos/${id}`, {
         method: 'DELETE',
       });
+    } catch (error) {
+      console.error('Erro na solicitação:', error);
+    }
+  };
 
       if (response.ok) {
         // Produto excluído com sucesso
@@ -27,10 +30,6 @@ const Produtos = () => {
       } else {
         console.error('Erro ao excluir o produto.');
       }
-    } catch (error) {
-      console.error('Erro na solicitação:', error);
-    }
-  };
 
   return (
     <div className="produtos-container">
