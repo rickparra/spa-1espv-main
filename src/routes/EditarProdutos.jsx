@@ -10,7 +10,7 @@ export default function EditarProdutos() {
     id: id,
     nome: '',
     desc: '',
-    valor: '',
+    valor: '!',
   });
 
   useEffect(() => {
