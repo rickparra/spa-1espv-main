@@ -7,7 +7,7 @@ export default function Conteudo() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
             nulla architecto voluptate. Distinctio eos recusandae incidunt
             voluptates velit maxime qui necessitatibus voluptas id, sit dolorem
-            officia dolore vel? Aspernatur, molestias?
+            officia dolore vel? Aspernatur, molestias.
           </p>
           <p>
             Quaerat dignissimos quasi, adipisci sed voluptates neque atque esse

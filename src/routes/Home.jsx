@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import './Home.scss'
 
 export default function Home() {

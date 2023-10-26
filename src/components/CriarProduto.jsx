@@ -7,7 +7,7 @@ const CriarProduto = () => {
         nome: '',
         desc: '',
         valor: 0,
-        imagemLink: '', // Adicione um campo para o link da imagem
+        imagemLink: '', // Adicione um campo para o link da imagens
     });
 
     const handleSubmit = async (e) => {
