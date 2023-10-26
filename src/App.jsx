@@ -8,7 +8,7 @@ export default function App(){
   return (
     <>
      <div className={style.container}>
-        {/* Criar um cabeçalho com um header, um h1 e uma lista ul com 3 itens com links*/}
+        {/* Criar um cabeçalho com um header, um h1 e uma lista ul com 3 itens com links.*/}
   <Cabecalho/>
         
         {/* Criar uma Seção de conteúdo com uma div e 2 parágrafos com 3 linhas de lorem. */}
