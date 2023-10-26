@@ -13,7 +13,7 @@ export default function App(){
         
         {/* Criar uma Seção de conteúdo com uma div e 2 parágrafos com 3 linhas de lorem. */}
 
-        {/* <Conteudo/> */}
+        {/* <Conteudo!/> */}
         <Outlet/>
 
         {/* Criar um rodapé com uma div uma lista ul e 3 itens com links para redes sociais, um parágrafo com o texto : Todos os meus diereitos reservados. 2023, n"ao se esqueça do código do símbolo do copyright. */}
