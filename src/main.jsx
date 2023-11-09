@@ -11,6 +11,7 @@ import Produtos from "./routes/Produtos.jsx";
 import EditarProdutos from "./routes/EditarProdutos.jsx";
 import Error404 from "./routes/Error404.jsx";
 import CriarProduto from './components/CriarProduto.jsx';
+import Login from './routes/Login.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,7 @@ const router = createBrowserRouter([
       { path: '/produtos', element: <Produtos /> },
       { path: '/editar/produtos/:id', element: <EditarProdutos /> },
       { path: '/criar-produto', element: <CriarProduto /> }, // Adicione esta rota
+      { path: '/login', element: <Login /> }, // Adicione esta rota
     ],
   },
 ]);
